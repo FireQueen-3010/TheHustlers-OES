@@ -23,13 +23,12 @@
       class="navbar navbar-default navbar-fixed-top nav"
       style="display: flex; justify-content: space-between"
     >
-      <h2 style="color: #ea4c89; margin-left: 1rem; font-size: 1.5rem">
+      <h1 style="color: #ea4c89; margin-left: 1rem; font-size: 1.5rem">
         Online Examination System
-      </h2>
+      </h1>
       <div class="nav-btn">
-        <!-- <button style="border-radius: 30px; width: 8rem; height:3rem; border: 1px solid #EA4C89; margin-top:1rem;"> -->
         <a
-          src="register.html"
+          href="Regform.php"
           style="
             cursor: pointer;
             margin-right: 1rem;
@@ -38,8 +37,8 @@
           "
           >Register</a
         >
-        <!-- </button> -->
-        <button
+
+        <!-- <button
           style="
             border-radius: 30px;
             width: 8rem;
@@ -47,9 +46,9 @@
             border: 1px solid #ea4c89;
             margin-top: 1rem;
           "
-        >
+        > -->
           <a
-            src="login.html"
+            href="Loginform.php"
             style="
               cursor: pointer;
               margin-left: 2px;
@@ -58,7 +57,7 @@
             "
             >Login</a
           >
-        </button>
+        <!-- </button> -->
       </div>
     </nav>
     <div class="hero" style="display: flex">

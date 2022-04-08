@@ -1,0 +1,38 @@
+.nav{
+    background-color: rgb(102, 187, 236);
+}
+.nav a{
+    text-decoration:none ;
+    color: black;
+}
+.nav button a:hover{
+    color: white;
+}
+.s{
+    margin-top: 250px;
+}
+.p{
+    padding-bottom: 30px;
+}
+.btn-white{
+    background-color: #f8f9fa;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+}
+.bg-reg{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-top: -130px;
+    background-color: rgb(150, 201, 243);
+    border-radius: 10px;
+}
+.bg-log{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 130px;
+    background-color: rgb(150, 201, 243);
+    border-radius: 10px;
+    width: 600px;
+}
