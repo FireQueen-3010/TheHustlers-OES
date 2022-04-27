@@ -48,7 +48,7 @@
             style="
               cursor: pointer;
               margin-left: 2px;
-              marging-right:2px;
+              margin-right:2px;
               color: #ea4c89;
               font-size: 1rem;
             "
