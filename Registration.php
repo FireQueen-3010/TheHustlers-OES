@@ -11,7 +11,7 @@ if(isset($_POST['submit']))
 
 if($result)
             {
-                header("location:regform.php");
+                header("location:Login.php");
             }
             else
             {

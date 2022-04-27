@@ -11,7 +11,7 @@ if(isset($_POST['submit']))
             $num = mysqli_num_rows($result);
 if($num==1)
             {
-                header("location:Firstproject.php");
+                header("location:index.php");
             }
             else
             {
