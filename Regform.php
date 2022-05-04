@@ -25,7 +25,7 @@
       <div class="nav-btn">
         <!-- <button style="border-radius: 30px; width: 8rem; height:3rem; border: 1px solid #EA4C89; margin-top:1rem;"> -->
         <a
-          src="Regform.php"
+          href="Regform.php"
           style="
             cursor: pointer;
             margin-right: 1rem;
@@ -45,7 +45,7 @@
           "
         > -->
           <a
-            src="Loginform.php"
+            href="Loginform.php"
             style="
               cursor: pointer;
               margin-left: 2px;
