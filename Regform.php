@@ -25,14 +25,15 @@
       <div class="nav-btn">
         <!-- <button style="border-radius: 30px; width: 8rem; height:3rem; border: 1px solid #EA4C89; margin-top:1rem;"> -->
         <a
-          href="Regform.php"
+          href="index.php"
+
           style="
             cursor: pointer;
             margin-right: 1rem;
             color: #ea4c89;
             font-size: 1rem;
           "
-          >Register</a
+          >Home</a
         >
         <!-- </button> -->
         <!-- <button
@@ -44,7 +45,11 @@
             margin-top: 1rem;
           "
         > -->
+
           <a
+
+
+
             href="Loginform.php"
             style="
               cursor: pointer;
@@ -91,9 +96,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 <script>
   function submitform(){
-     let name     =document.querySelector("#name").value;
-     let email    =document.querySelector("#email").value;
-     let password =document.querySelector("#password").value;
+     let name=document.querySelector("#name").value;
+     let email=document.querySelector("#email").value;
+     let password=document.querySelector("#password").value;
      let cpassword=document.querySelector("#confirm_password").value;
      if(
        name !="" &&
@@ -105,7 +110,7 @@
       alert("Password should be same");
      }
      else{
-      alert(name+" your are successfully registered with "+email+" and the password is "+password);
+      alert(name+" your are successfully registered with "+email);
      }
      }else{
       alert("Enter all fields");

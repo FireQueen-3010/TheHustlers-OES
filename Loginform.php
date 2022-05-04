@@ -48,7 +48,7 @@
             style="
               cursor: pointer;
               margin-left: 2px;
-              marging-right:2px;
+              margin-right:2px;
               color: #ea4c89;
               font-size: 1rem;
             "
@@ -86,8 +86,8 @@
 <script>
     
     function submitform(){
-     let name     =document.querySelector("#name").value;
-     let password =document.querySelector("#password").value;
+     let name=document.querySelector("#name").value;
+     let password=document.querySelector("#password").value;
      if(
        name !="" &&
        password !=""
