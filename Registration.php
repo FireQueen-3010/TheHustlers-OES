@@ -11,7 +11,8 @@ if(isset($_POST['submit']))
 
 if($result)
             {
-                header("location:Login.php");
+                
+                header("location:Loginform.php");
             }
             else
             {

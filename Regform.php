@@ -105,7 +105,8 @@
        email !="" &&
        password !="" &&
        cpassword !=""
-     ){
+     )
+     {
       if(password != cpassword){
       alert("Password should be same");
      }

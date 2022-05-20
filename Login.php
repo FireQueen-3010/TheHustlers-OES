@@ -11,7 +11,7 @@ if(isset($_POST['submit']))
             $num = mysqli_num_rows($result);
 if($num==1)
             {
-                header("location:index.php");
+                header("location:categories.php");
             }
             else
             {
