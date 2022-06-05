@@ -33,16 +33,6 @@
           "
           >Register</a
         >
-
-        <!-- <button
-          style="
-            border-radius: 30px;
-            width: 8rem;
-            height: 3rem;
-            border: 1px solid #ea4c89;
-            margin-top: 1rem;
-          "
-        > -->
           <a
             href="Loginform.php"
             style="
