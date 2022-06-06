@@ -57,37 +57,59 @@ let questions = [
   },
   {
     numb: 6,
-    question: "What is Diksha's surname?",
-    answer: "Patro",
+    question: "What is C++?",
+    answer: "C++ supports both procedural and object oriented programming language",
     options: [
-      "Patro",
-      "Papa",
-      "Doremon",
-      "Pator"
+      "C++ is an object oriented programming language",
+      "C++ is a procedural programming language",
+      "C++ supports both procedural and object oriented programming language",
+      "C++ is a functional programming language"
     ]
   },
     {
     numb: 7,
-    question: "What is Vaisnavi's pet name?",
-    answer: "Vaishu",
+    question: "Which of the following user-defined header file extension used in c++?",
+    answer: "h",
     options: [
-      "Vaish",
-      "Vaishu",
-      "Voishu",
-      "Bujji"
+      "hg",
+      "cpp",
+      "h",
+      "hf"
     ]
   },
     {
     numb: 8,
-    question: "What is Shanthi famous for?",
-    answer: "Her smile",
+    question: "Which of the following is not a type of Constructor in C++?",
+    answer: "Friend constructor",
     options: [
-      "Her talkative nature",
-      "Her beauty",
-      "Her smile",
-      "Her dressing style"
+      "Default constructor",
+      "Parameterized constructor",
+      "Copy constructor",
+      "Friend constructor"
     ]
   },
+  {
+      numb: 9,
+      question: "What is the order of a matrix?",
+      answer: "number of rows X number of columns",
+      options: [
+        "number of rows X number of columns",
+        "number of columns X number of rows",
+        "number of rows X number of rows",
+        "number of columns X number of columns"
+      ]
+    },
+    {
+        numb: 10,
+        question: "Which of these best describes an array?",
+        answer: "Container of objects of similar types",
+        options: [
+          "A data structure that shows a hierarchical behavior",
+          "Container of objects of similar types",
+          "Arrays are immutable once initialised",
+          "Array is not a data structure"
+        ]
+      },
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
 
